@@ -8,7 +8,7 @@ dotfiles for customising my bash, vim and terminal.
 
 ```
 cd ~/dotfiles
-chmod u+x .make.sh
-./.make.sh
+chmod u+x install.sh
+./install.sh
 ```
 
