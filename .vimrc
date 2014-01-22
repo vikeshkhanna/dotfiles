@@ -9,8 +9,13 @@ filetype plugin indent on
 
 "ConqueTerm
 command Cterm split | ConqueTerm bash
+nnoremap <silent> sh :Cterm<CR>
 
 "NerdTree - 
 "Fs open Nerdtree on the same tab. Nfs opens NerdTree in new tab.
 command Fs NERDTree
 command Nfs tabedit | NERDTree
+nnoremap <silent> fs :Fs<CR>
+
+"TagBar
+nnoremap <silent> tt :TagbarToggle<CR>
