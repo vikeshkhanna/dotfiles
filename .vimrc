@@ -19,3 +19,9 @@ nnoremap <silent> fs :Fs<CR>
 
 "TagBar
 nnoremap <silent> tt :TagbarToggle<CR>
+
+"Omni Completion
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
+
+"Editor 
