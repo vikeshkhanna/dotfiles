@@ -50,3 +50,6 @@
 
 [diff]
 	tool = kdiff3
+
+[branch "master"]
+	remote = origin

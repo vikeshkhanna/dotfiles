@@ -22,7 +22,6 @@ nnoremap <silent> tt :TagbarToggle<CR>
 
 "Omni Completion
 filetype plugin on
-set omnifunc=syntaxcomplete#Complete
 inoremap <C-Space> <C-X><C-o>
 
 "Editor 
