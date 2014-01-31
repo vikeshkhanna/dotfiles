@@ -1,5 +1,6 @@
 "General
-set nu
+set nu  	" Set line numbers
+set hlsearch 	" Set search highlight
 
 "Pathogen
 execute pathogen#infect()
@@ -43,3 +44,4 @@ nnoremap <C-Right> w
 vnoremap <C-S-Right> w
 nnoremap <C-S-Right> gh<C-O>w
 inoremap <C-S-Right> <C-\><C-O>gh<C-O>wA
+
