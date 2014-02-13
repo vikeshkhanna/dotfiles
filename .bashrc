@@ -1,6 +1,6 @@
-export LD_LIBRARY_PATH=~/.local/lib
-export C_INCLUDE_PATH=~/.local/include
-export CPLUS_INCLUDE_PATH=~/.local/include
+export LD_LIBRARY_PATH=~/.local/lib:$LD_LIBRARY_PATH
+export C_INCLUDE_PATH=~/.local/include:$C_INCLUDE_PATH
+export CPLUS_INCLUDE_PATH=~/.local/include:$CPLUS_INCLUDE_PATH
 export PATH=~/.local/bin/:$PATH
 
 # Prompt
@@ -11,3 +11,4 @@ PS1="$USER_COLOR\\u@\\h\[\e[m\] $DIR_COLOR\\w\[\e[m\] $ "
 
 # Python
 export PYTHONSTARTUP=~/.pythonrc
+
