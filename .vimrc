@@ -1,6 +1,8 @@
 "General
 set nu  	" Set line numbers
 set hlsearch 	" Set search highlight
+set shiftwidth=2
+set tabstop=2
 
 "Pathogen
 execute pathogen#infect()
