@@ -11,7 +11,7 @@ git submodule update --init --recursive
 
 dir=$HOME/dotfiles                    # dotfiles directory
 olddir=$HOME/old.dotfiles             # old dotfiles backup directory
-files="bashrc vimrc inputrc pythonrc vim gitconfig gitignore screen screenrc"    # list of files/folders to symlink in homedir
+files="bashrc bash_profile vimrc inputrc pythonrc vim gitconfig gitignore screen screenrc"    # list of files/folders to symlink in homedir
 
 ##########
 
