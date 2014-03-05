@@ -47,3 +47,6 @@ vnoremap <C-S-Right> w
 nnoremap <C-S-Right> gh<C-O>w
 inoremap <C-S-Right> <C-\><C-O>gh<C-O>wA
 
+" Start Syntastic in passive mode
+let g:syntastic_mode_map = { 'mode': 'passive' }
+nnoremap <silent> ch :SyntasticCheck<CR>
