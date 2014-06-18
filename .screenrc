@@ -1,10 +1,12 @@
-#Configuring harstatus
-
+# Configuring harstatus
 hardstatus alwayslastline
 
-# Setup Gmail
-backtick 1 60 60 $HOME/.screen/.gmail.sh
-hardstatus string '%{= kw}Gmail(%1`) %{= kG} [ %{G}%H %{g}][%= %{=kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B}%Y-%m-%d %{W}%c %{g}]'
+# Set xterm to avoid vim CTRL conflicts
+term xterm
+
+# Setup Gmail - Removing this for now.
+# backtick 1 60 60 $HOME/.screen/.gmail.sh
+# hardstatus string '%{= kw}Gmail(%1`) %{= kG} [ %{G}%H %{g}][%= %{=kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B}%Y-%m-%d %{W}%c %{g}]'
 
 # Default screens
 screen -t shell1	0
