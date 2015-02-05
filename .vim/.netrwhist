@@ -1,6 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/afs/cs.stanford.edu/u/vikesh/.vim'
-let g:netrw_dirhist_2='/afs/cs.stanford.edu/u/vikesh/dotfiles/.screen'
-let g:netrw_dirhist_3='/afs/cs.stanford.edu/u/vikesh/.screen'
-let g:netrw_dirhist_4='/afs/cs.stanford.edu/u/vikesh/dotfiles/.screen'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/usr/local/Cellar/hadoop/2.5.0/libexec/libexec'
+let g:netrw_dirhist_2='/Users/vikeshkhanna/dump/web-api-auth-examples/authorization_code'
+let g:netrw_dirhist_3='/Users/vikeshkhanna/development/grubble-restaurant/static'
+let g:netrw_dirhist_4='/Users/vikeshkhanna/development/grubble-restaurant/modules/utils'
+let g:netrw_dirhist_5='/Users/vikeshkhanna/development/cs224n-pa4/java/extlib'
+let g:netrw_dirhist_6='/Users/vikeshkhanna/go/src/gomaps-api-server-safedata/logger'
+let g:netrw_dirhist_7='/Users/vikeshkhanna/go/src/gomaps-api-server-safedata/model'

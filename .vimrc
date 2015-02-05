@@ -3,6 +3,7 @@ set nu  	" Set line numbers
 set hlsearch 	" Set search highlight
 set shiftwidth=2
 set tabstop=2
+set expandtab
 
 "Pathogen
 execute pathogen#infect()
@@ -50,3 +51,6 @@ inoremap <C-S-Right> <C-\><C-O>gh<C-O>wA
 " Start Syntastic in passive mode
 let g:syntastic_mode_map = { 'mode': 'passive' }
 nnoremap <silent> ch :SyntasticCheck<CR>
+
+" ejs filetype html
+au BufNewFile,BufRead *.ejs set filetype=html
