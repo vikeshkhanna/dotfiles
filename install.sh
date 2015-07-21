@@ -9,7 +9,7 @@ git submodule update --init --recursive
 
 ########## Variables
 
-dir=$HOME/dotfiles                    # dotfiles directory
+dir=$HOME/.dotfiles                    # dotfiles directory
 olddir=$HOME/old.dotfiles             # old dotfiles backup directory
 files="bashrc cshrc bash_profile vimrc inputrc pythonrc vim gitconfig gitignore screen screenrc"    # list of files/folders to symlink in homedir
 
@@ -21,8 +21,8 @@ mkdir -p $olddir
 echo "...done"
 
 # change to the dotfiles directory
-echo "Changing to the $dir directory"
-cd $dir
+echo "Creating the $dir directory"
+rm -rf $dir && cp -r `pwd` $dir
 echo "...done"
 
 # move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks 
@@ -32,5 +32,3 @@ for file in $files; do
     echo "Creating symlink to $file in home directory."
     ln -s $dir/.$file $HOME/.$file
 done
-
-
